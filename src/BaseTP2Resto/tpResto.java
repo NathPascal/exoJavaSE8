@@ -40,11 +40,10 @@ public class tpResto {
 		}
 			
 		//afficher le résumé de la commande
-		System.out.println("résumé de la commande: ");
-			for (int i = 0; i < nbMenu; i++){
-				System.out.println();
-				for (int j =0; j < menu.length; j++){
-					System.out.println(order[i][j]);
+		for (int i = 0; i < nbMenu; i++){
+			System.out.println("résumé de la commande " +(i+1)+": ");
+			for (int j =0; j < menu.length; j++){
+				System.out.println(order[i][j]);
 				}
 			}
 		
